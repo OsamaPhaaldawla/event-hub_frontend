@@ -145,7 +145,7 @@ export default function Navbar() {
           )}
 
           {/* Login & Logout Buttons */}
-          {user ? (
+          {user?.role ? (
             <button
               className="text-2xl text-gray-700 hover:text-blue-600 duration-300 py-3 cursor-pointer"
               onClick={logout}

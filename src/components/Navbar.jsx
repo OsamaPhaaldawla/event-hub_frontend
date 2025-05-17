@@ -20,7 +20,7 @@ export default function Navbar() {
               <span className="text-blue-600">Hub</span>
             </h1>
           </div>
-          {user && (
+          {user?.role && (
             <p className="text-lg">
               Welcome,{" "}
               <span className="text-blue-600 font-semibold">
